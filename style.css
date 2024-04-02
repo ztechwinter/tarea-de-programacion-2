@@ -11,7 +11,7 @@ body{
 .header{
   background-color: rgb(105, 23, 19);
   height: 95px;
-  position: relative;
+  position: relative; 
   width: 100%;
   top:0;
   left:0;
@@ -110,6 +110,8 @@ a:hover {
 
 .links {
     display: flex;
+    justify-content: space-around; 
+    align-items: center;
 }
 
 .links ul {
@@ -127,11 +129,24 @@ a:hover {
   height: auto; 
 }
 
-  
+.foto_retrato{
+  width: auto; 
+  height: none  ; 
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  border: 5px solid black ;
+}
 
 
 .icons-container img {
   margin-left: 100%;
   width: 30px; 
   height: 30px;
+}
+.imagenderecha{
+  float: right;
+}
+.bordes_icnos{
+  border: 1px solid purple;
 }
